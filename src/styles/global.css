@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gowun+Dodum&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    inline-size: 50%;
+    margin: auto;
+    background-color: #FFFFFF;
+    font-size: 15px;
+    color: #36454F;
+    font-family: 'Montserrat', sans-serif;
+}
+
+input{
+    border: none;
+    background-color: #F2F2F2;
+    opacity: 0.4;
+    border-radius: 0.4rem;
+    font-size: 8px;
+    font-family: 'Montserrat', sans-serif;
+    padding: 0.3rem;
+    outline: none;
+}
+
+input::placeholder{
+    color: #333333;
+    font-size: 9px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+button{
+    background-color: inherit;
+    border: none;
+}
+
+@media(max-width: 768px) {
+
+    body{
+        inline-size: 90%;
+        margin: auto;
+    }
+
+}
